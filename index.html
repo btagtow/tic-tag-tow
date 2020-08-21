@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="app.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Pacifico&family=Patrick+Hand&display=swap');
+    </style>
+    <title>Tic-Tag-Tow</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div>
+            <h1>Tic-Tag-Tow</h1>
+        </div>
+    </header>
+    <main>
+        <section id="player-container" class="main-container-item">
+            <!-- <h1 id="player-indicator">Player 1 - Make a move</h1> -->
+        </section>
+        <section class="center-main-container main-container-item">
+            <div class="player-text-container">
+                <h1 class="player-indicator-text"></h1>
+                <div id="parent"> <!-- This is the main container, to mouse over -->
+                    <div id="popup" style="display: none">description text here</div>
+                    </div>
+            </div>
+            <section class="board-container">
+                <section class="top row">
+                    <div class="board-space top-column left-row 1">
+                        <span class="player-mark top-column left-row"></span>
+                    </div>
+                    <div class="board-space top-column middle-row 2">
+                        <span class="player-mark top-column middle-row"></span>
+                    </div>
+                    <div class="board-space top-column right-row 3">
+                        <span class="player-mark top-column right-row"></span>
+                    </div>
+                </section>
+                <section id="middle-row" class="middle row">
+                    <div class="board-space middle-column left-row 4">
+                        <span class="player-mark middle-column left-row"></span>
+                    </div>
+                    <div class="board-space middle-column middle-row 5">
+                        <span class="player-mark middle-column middle-row"></span>
+                    </div>
+                    <div class="board-space middle-column right-row 6">
+                        <span class="player-mark middle-column right-row"></span>
+                    </div>
+                </section>
+                <section class="middle row">
+                    <div class="board-space bottom-column left-row 7">
+                        <span class="player-mark bottom-column left-row"></span>
+                    </div>
+                    <div class="board-space bottom-column middle-row 8">
+                        <span class="player-mark bottom-column middle-row"></span>
+                    </div>
+                    <div class="board-space bottom-column right-row 9">
+                        <span class="player-mark bottom-column right-row"></span>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <section id="score-tracking-container" class="main-container-item">
+            <!-- <div class="leaderboard-content">
+                <!-- <h1 id="leaderboard-heading">Leaderboard:</h1> -->
+                <!-- <ul class="leaderboard-listing"></ul> -->
+            <!-- </div>  -->
+        </section>
+    </main>
+    <footer class="footer">
+        <div>
+            <h1 class="footer-text">Design and functionality by Ben Tagtow</h1>
+        </div>
+    </footer>
+    
+</body>
+</html>

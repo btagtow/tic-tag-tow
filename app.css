@@ -1,0 +1,74 @@
+.header{
+    font-size: 3rem;
+    height: 12rem;
+}
+.header, .footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: "Helvetica", "Arial", cursive;
+}
+
+.fonts-loaded, .header, .footer{
+    font-family: "Pacifico"
+}
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.player-text-container{
+    display: flex;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+}
+.board-space{
+    display: flex;
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.board-space:hover{
+    cursor: pointer;
+    /* background-color: rgb(219, 216, 216); */
+}
+.player-mark{
+    height: fit-content;
+    width: fit-content;
+    font-size: 10rem;
+    font-family: 'Patrick Hand', cursive;
+}
+.board-space.middle-row{
+    border-right-style: solid;
+    border-left-style: solid;
+}
+.board-space.middle-column{
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+.play-again:hover{
+    cursor: pointer;
+    background-color: rgb(120, 120, 184);
+    width: fit-content;
+    text-align: center;
+}
+.footer{
+    margin-top: 8%;
+    margin-bottom: 0%;
+    width: 100%;
+}
+.footer-text{
+    font-size: 1.5rem;
+}
