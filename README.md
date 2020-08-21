@@ -8,4 +8,5 @@ When you get into the app, it is your classic tic-tac-toe. Find a friend to play
 Coming soon: 
 - Leaderboard
 - Custom names
+- Player vs CPU
 - Possible expanded tic-tac-toe board
